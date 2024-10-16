@@ -38,7 +38,7 @@ function BookingModal({ isOpen, onClose, selectedSlot, onBook }) {
           center_id: centerId,
           start_time: selectedSlot.start_time,
           end_time: selectedSlot.end_time || null,
-          username: centerExists ? undefined : userName, // Don't send username if center exists
+          username: userName, 
         };
 
         const response = await fetch(`${API_URL}/api/booking`, {
