@@ -16,10 +16,10 @@ Before setting up this project, ensure you have the following software installed
 
 ### 1. Clone the Repository
 To get started, clone the project repository:
-\`\`\`shell
+```shell
 git clone https://github.com/anuragsingh7746/game-theory-assignment.git
 cd games-theory-assignment
-\`\`\`
+```
 
 ### 2. Install Dependencies
 Navigate to the project folder and install the required Node.js dependencies:
