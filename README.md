@@ -3,6 +3,17 @@
 
 **College ID**: IIT2021193
 
+
+Test User Creds:
+Username = "testuser"
+Password = "aa"
+
+Test Manager Creds:
+Username = "testuser1"
+Password = "aa"
+
+Use these credential to login on the deployed app and test the application.
+
 ## Overview
 This project is a **Sports Booking System** where users can book courts for different sports at various centers. It features a backend service that handles user registration, court availability checks, and booking creation. The main objectives of the system are to allow users to book courts for specific time slots and to prevent overlapping bookings.
 
