@@ -32,7 +32,7 @@ npm install
 
 ### 3. Set Up Environment Variables
 Create a `.env` file in the root directory of the project and add the following environment variables:
-\`\`\`bash
+```bash
 MONGO_URI=mongodb://localhost:27017/sports-booking-system // add your respective database name
 PORT=5000
 ```
