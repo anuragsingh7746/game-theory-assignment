@@ -13,7 +13,7 @@ Username = "testuser1"
 Password = "aa"
 
 Use these credential to login on the deployed app and test the application.
-
+**NOTE: The cloud-hosted applications spins down due to inactivity after 15 mins (due to free tier) ,once you click on the link please wait for some time as it takes time to invoke the server again  **
 Link : https://game-theory-assignment-frontend-9ku3.onrender.com/
 
 ## Overview
