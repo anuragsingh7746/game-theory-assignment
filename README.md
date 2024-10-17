@@ -23,31 +23,31 @@ cd games-theory-assignment
 
 ### 2. Install Dependencies
 Navigate to the project folder and install the required Node.js dependencies:
-\`\`\`bash
+```bash
 cd backend
 npm install
 cd ../frontend
 npm install
-\`\`\`
+```
 
 ### 3. Set Up Environment Variables
 Create a `.env` file in the root directory of the project and add the following environment variables:
 \`\`\`bash
 MONGO_URI=mongodb://localhost:27017/sports-booking-system // add your respective database name
 PORT=5000
-\`\`\`
+```
 
 ### 4. Start MongoDB
 Ensure MongoDB is running locally. You can start MongoDB with:
-\`\`\`bash
+```bash
 mongod
-\`\`\`
+```
 
 ### 5. Start the Server
 To start the backend server, use the following command:
-\`\`\`bash
+```bash
 npm run start
-\`\`\`
+```
 
 
 ### 6. Test the API Endpoints
