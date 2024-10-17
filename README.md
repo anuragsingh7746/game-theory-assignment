@@ -16,7 +16,7 @@ Before setting up this project, ensure you have the following software installed
 
 ### 1. Clone the Repository
 To get started, clone the project repository:
-\`\`\`bash
+\`\`\`shell
 git clone https://github.com/anuragsingh7746/game-theory-assignment.git
 cd games-theory-assignment
 \`\`\`
