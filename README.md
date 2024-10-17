@@ -51,10 +51,10 @@ npm run start
 
 
 ### 6. Test the API Endpoints
-Use Postman or another API testing tool to test the API. The available routes are defined in the \`routes/bookingRoutes.js\` file.
+Use Postman or another API testing tool to test the API. The available routes are defined in the \`routes\` folder.
 
-### 7. Frontend Application (Optional)
-If a frontend application is available, make sure it is deployed or running locally. The frontend would typically be accessible at \`http://localhost:3000\`.
+### 7. Frontend Application - Locally
+The frontend would  be accessible at \`http://localhost:3000\`.
 
 ## API Endpoints
 Here are some key API endpoints you can use:
@@ -70,21 +70,22 @@ Here are some key API endpoints you can use:
 ## Deployment
 
 ### Backend Deployment:
-To deploy the backend, you can use services like **Heroku** or **AWS**:
+To deploy the backend, I used render
 1. Push your code to a GitHub repository.
-2. Use the deployment platform (Heroku/AWS) to link the repository and deploy the server.
-3. Ensure your MongoDB is hosted on **MongoDB Atlas** or another cloud provider.
+2. Use the deployment platform render to link the repository and deploy the server.
+3. MongoDB is hosted on **MongoDB Atlas**.
 
 ### Frontend Deployment (if applicable):
-For frontend deployment, use services like **Netlify** or **Vercel**. Once deployed, link the backend API for full functionality.
+1 Same as for backend
 
 ## Assumptions & Limitations
 - **Assumptions**: 
   - Users will provide valid booking times (in the correct date/time format).
   - No manual interventions are expected in database bookings once they are created.
-- **Limitations**: 
   - The system currently allows only bookings for one-hour time slots.
-  - The conflict resolution mechanism is basic and may not handle partial overlaps that are less than 60 minutes.
+- **Limitations**: 
+  - Authentication missing.
+  - Race condition might occur when 2 booking of same slot happen at same time.
 
 ## Special Instructions
 Ensure that the MongoDB connection string is correctly set in the \`.env\` file, and that MongoDB is running before starting the server.
@@ -92,7 +93,8 @@ Ensure that the MongoDB connection string is correctly set in the \`.env\` file,
 ## Future Improvements
 - Adding user notifications when a booking is confirmed or canceled.
 - Introducing flexibility in time-slot duration for bookings.
-- Implementing additional features like court usage statistics and advanced reporting.
+- Implementing mutual exclusion by using locks.
+- Can add authentication using JWT Tokens
 
 ## Links
 - **Backend URL**: [Deployed Backend Link](https://game-theory-assignment-backend.onrender.com/)  -- IT DOES NOT SHOW ANYTHING IT IS ENTRY POINT TO THE FRONTEND
