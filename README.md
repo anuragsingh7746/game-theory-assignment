@@ -95,8 +95,8 @@ Ensure that the MongoDB connection string is correctly set in the \`.env\` file,
 - Implementing additional features like court usage statistics and advanced reporting.
 
 ## Links
-- **Backend URL**: [Deployed Backend Link](https://backend-deployed-url.com)
-- **Frontend URL**: [Deployed Frontend Link](https://frontend-deployed-url.com)
+- **Backend URL**: [Deployed Backend Link](https://game-theory-assignment-backend.onrender.com/)  -- IT DOES NOT SHOW ANYTHING IT IS ENTRY POINT TO THE FRONTEND
+- **Frontend URL**: [Deployed Frontend Link](https://game-theory-assignment-frontend-9ku3.onrender.com)
 
 ## Contact
-For any queries, please reach out at [your-email@example.com].
+For any queries, please reach out at [iit2021193@iiita.ac.in].
